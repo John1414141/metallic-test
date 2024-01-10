@@ -2,13 +2,12 @@
  * Example of serving static files and running a bare server.
  * This is a very common setup.
  */
-const http = require("http");
-const serveStatic = require("serve-static");
-const { fileURLToPath } = require("url");
-const chalk = require("chalk");
-const block = require("./blocklist/block.json");
-
-const createBareServer = require("@tomphttp/bare-server-node");
+import createBareServer from "@tomphttp/bare-server-node";
+import http from "http";
+import serveStatic from "serve-static";
+import { fileURLToPath } from "url";
+import chalk from "chalk";
+import block from "./blocklist/block.json" assert { type: "json" };
 
 const httpServer = http.createServer();
 const port = process.env.PORT || 8080;
