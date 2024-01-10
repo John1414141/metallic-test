@@ -5,6 +5,7 @@
   "repository": "https://github.com/cognetwork-dev/Metallic.git",
   "license": "MIT",
   "author": "Nebelung",
+  "type": "module",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
