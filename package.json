@@ -24,13 +24,13 @@
     "react-tsparticles": "^2.9.3",
     "tsparticles": "^2.9.3",
     "vite-plugin-rewrite-all": "^1.0.1",
-    "vite-plugin-svgr": "^2.4.0"
+    "vite-plugin-svgr": "^2.4.0",
+    "@tomphttp/bare-server-node": "^1.2.5"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
-    "@tomphttp/bare-server-node": "^1.2.5",
     "@vitejs/plugin-react": "^3.1.0",
     "eslint": "^8.36.0",
     "prettier": "^2.8.7",
