@@ -29,7 +29,7 @@ function App() {
       const localPass = localStorage.getItem('metpass')
       const pass = localPass || prompt('Password: ')
 
-      if (pass == 'ab') {
+      if (pass == 'ablajdfiasljfcalcjoi1289') {
         localStorage.setItem('metpass', pass)
         setAuth(true)
       } else if (localPass) {
