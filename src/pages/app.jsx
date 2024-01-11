@@ -40,7 +40,7 @@ function App() {
       }
     }
     doAuth()
-  })
+  }, [])
   var echoPattern = ['3', 'k', 'h', '0'];
   var echoCurrent = 0;
   

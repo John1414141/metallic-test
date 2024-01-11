@@ -1,7 +1,7 @@
 <div align="center">
 <img height="150px" src="https://raw.githubusercontent.com/cognetwork-dev/Metallic/main/src/assets/logo.svg">
-<h1>Metallic</h1>
-<h3>A powerful web proxy build for speed and customization.</h3>
+<h1>Metallic with Auth</h1>
+<h3>A powerful web proxy build for speed and customization, with great security. </h3>
 <p>Access the web with this stylish new web proxy service made in React supporting many sites. Metallic was originally created for <a href="https://github.com/titaniumnetwork-dev">TN</a>'s proxathon where it won 2nd place!</p>
 </div>
 
@@ -18,6 +18,7 @@
 - Customizable interface
 - Mobile support
 - Expansive library of themes
+- Password Auth
 
 ## Setup
 
@@ -38,6 +39,8 @@ Click a button at the top of this page and follow the directions for an easy way
 
 ## Configuration
 
+### Password
+The current password is `ab`. Edit the file [/src/pages/app.jsx](https://github.com/Zohran14/Metallic/blob/main/src/pages/app.jsx) to change the password. Replace the instance of `ab` (line 32 of the file) with the password you desire. Change the password whenever the proxy gets leaked!
 ### Obfuscation
 File: [/src/consts.js](https://github.com/cognetwork-dev/Metallic/blob/main/src/consts.js)
 
